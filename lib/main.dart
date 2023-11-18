@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         minTextAdapt: true,
         builder: (_, child) {
           return MaterialApp(
-              title: 'TAQA - BTMS',
+              title: 'TT - Cinema',
               theme: AppThemes.lightTheme,
               debugShowCheckedModeBanner: false,
               initialRoute: AppNavRoutes.initialRoute,
