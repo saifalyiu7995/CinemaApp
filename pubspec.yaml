@@ -1,0 +1,43 @@
+name: tentwenty_cinema
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  flutter_riverpod: ^2.4.6
+  flutter_svg: ^2.0.9
+  auto_size_text: ^3.0.0
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icons/
+  
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 800
